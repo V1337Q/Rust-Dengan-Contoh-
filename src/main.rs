@@ -13,6 +13,7 @@ mod array_indexing;
 mod scope;
 mod enumeration;
 mod boolean;
+mod array;
 
 //test variable
 #[test]
@@ -42,6 +43,12 @@ fn boolean() {
 #[test]
 fn test_tuple() {
     tuple::tuple();
+}
+
+//test array
+#[test]
+fn array() {
+    array::arayy();
 }
 
 //test konsep shadowing
