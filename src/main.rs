@@ -11,6 +11,7 @@ mod comparator;
 mod if_else_statement;
 mod array_indexing;
 mod scope;
+mod enumeration;
 
 //test variable
 #[test]
@@ -64,4 +65,10 @@ fn array_indexing() {
 #[test]
 fn scope() {
     scope::kopsekop();
+}
+
+//test konsep enumeration
+#[test]
+fn enumeration() {
+    enumeration::payment_test();
 }
