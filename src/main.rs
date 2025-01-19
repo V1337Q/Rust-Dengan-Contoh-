@@ -12,6 +12,7 @@ mod if_else_statement;
 mod array_indexing;
 mod scope;
 mod enumeration;
+mod boolean;
 
 //test variable
 #[test]
@@ -29,6 +30,12 @@ fn test_merubah_tipedata() {
 #[test]
 fn operator() {
     operator::operator_simpel();
+}
+
+//test operasi boolean
+#[test]
+fn boolean() {
+    boolean::operasibool();
 }
 
 //test tuple, dan cara mengakses tuple
@@ -72,3 +79,5 @@ fn scope() {
 fn enumeration() {
     enumeration::payment_test();
 }
+
+
