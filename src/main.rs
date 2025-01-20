@@ -1,7 +1,7 @@
-//Tempat untuk menjalankan code yang ada di /src. Include file dengan menggunakan
-//mod (namafile);
+// Tempat untuk menjalankan code yang ada di /src. Include file dengan menggunakan
+// mod (namafile);
 //
-//jalankan kode program dengan command = cargo test (nama test function) -- --exact --show-output
+// jalankan kode program dengan command = cargo test (nama test function) -- --exact --show-output
 mod variable;
 mod merubah_tipedata;
 mod operator;
