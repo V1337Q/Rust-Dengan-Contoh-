@@ -15,6 +15,7 @@ mod enumeration;
 mod boolean;
 mod array;
 mod stringslice;
+mod two_d_array;
 
 //test variable
 #[test]
@@ -50,6 +51,11 @@ fn test_tuple() {
 #[test]
 fn array() {
     array::arayy();
+}
+
+#[test]
+fn two_d_array() {
+    two_d_array::twodarray();
 }
 
 //test konsep shadowing
