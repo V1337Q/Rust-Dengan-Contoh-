@@ -16,6 +16,10 @@ mod boolean;
 mod array;
 mod stringslice;
 mod two_d_array;
+mod konstanta;
+mod tipe_string;
+mod stack_heap;
+
 
 //test variable
 #[test]
@@ -88,10 +92,28 @@ fn str() {
     stringslice::stringslice();
 }
 
+//test Tipe String
+#[test]
+fn tipe_string() {
+    tipe_string::tipestring();
+}
+
 //test konsep scope
 #[test]
 fn scope() {
     scope::kopsekop();
+}
+
+//test Const
+#[test]
+fn konstanta() {
+    konstanta::konstan();
+}
+
+//Konsep Ownership, dan alokasi data di Rust
+#[test]
+fn copy_data() {
+    stack_heap::datacopy();
 }
 
 //test konsep enumeration
