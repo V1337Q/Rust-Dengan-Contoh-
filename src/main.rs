@@ -14,6 +14,7 @@ mod scope;
 mod enumeration;
 mod boolean;
 mod array;
+mod stringslice;
 
 //test variable
 #[test]
@@ -73,6 +74,12 @@ fn if_else_statement() {
 #[test]
 fn array_indexing() {
     array_indexing::arayy_indexing();
+}
+
+//test Stringslice
+#[test]
+fn str() {
+    stringslice::stringslice();
 }
 
 //test konsep scope
