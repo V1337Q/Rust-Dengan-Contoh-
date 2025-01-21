@@ -25,7 +25,7 @@ mod loop_per;
 mod while_loop; 
 mod for_loop;
 mod for_loop_array;
-
+mod range;
 
 //test variable
 #[test]
@@ -170,6 +170,13 @@ fn for_loop() {
 fn for_loop_array() {
     for_loop_array::for_array();
 }
+
+//test range
+#[test]
+fn range() {
+    range::range();
+}
+
 
 //test konsep enumeration
 #[test]
