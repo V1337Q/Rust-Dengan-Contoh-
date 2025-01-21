@@ -28,6 +28,7 @@ mod for_loop_array;
 mod range;
 mod function_call;
 mod parameter;
+mod rekursi;
 
 //test variable
 #[test]
@@ -195,6 +196,12 @@ fn function_call() {
 #[test]
 fn parameter() {
     parameter::test_parameter();
+}
+
+//test konsep rekursi
+#[test]
+fn rekursi() {
+    rekursi::coba_rekursi();
 }
 
 //test konsep enumeration
