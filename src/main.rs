@@ -29,7 +29,7 @@ mod range;
 mod function_call;
 mod parameter;
 mod rekursi;
-
+mod struct_1;
 //test variable
 #[test]
 fn test_variable() {
@@ -208,6 +208,13 @@ fn rekursi() {
 #[test]
 fn faktorial() {
     rekursi::faktorekur();
+}
+
+//Struct 
+
+#[test]
+fn struct_1() {
+    struct_1::cobaidentitas();
 }
 
 //test konsep enumeration
