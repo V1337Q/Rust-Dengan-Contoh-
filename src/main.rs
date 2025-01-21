@@ -177,6 +177,11 @@ fn range() {
     range::range();
 }
 
+//inclusive range
+#[test]
+fn inclusive_range() {
+    range::range_inclusive();
+}
 
 //test konsep enumeration
 #[test]
