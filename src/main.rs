@@ -23,6 +23,7 @@ mod ownership_move;
 mod if_expression;
 mod loop_per;
 mod while_loop; 
+mod for_loop;
 
 //test variable
 #[test]
@@ -155,6 +156,13 @@ fn while_loop() {
 fn array_loop() {
     while_loop::while_array();
 }
+
+//test for loop 
+#[test]
+fn for_loop() {
+    for_loop::for_loop();
+}
+
 
 //test konsep enumeration
 #[test]
