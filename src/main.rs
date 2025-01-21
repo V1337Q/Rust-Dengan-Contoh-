@@ -204,6 +204,12 @@ fn rekursi() {
     rekursi::coba_rekursi();
 }
 
+//Aplikasi rekursi pada rumus faktorial
+#[test]
+fn faktorial() {
+    rekursi::faktorekur();
+}
+
 //test konsep enumeration
 #[test]
 fn enumeration() {
