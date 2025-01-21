@@ -30,6 +30,10 @@ mod function_call;
 mod parameter;
 mod rekursi;
 mod struct_1;
+mod pattern_matching;
+
+
+
 //test variable
 #[test]
 fn test_variable() {
@@ -215,6 +219,11 @@ fn faktorial() {
 #[test]
 fn struct_1() {
     struct_1::cobaidentitas();
+}
+
+#[test]
+fn pattern_matching() {
+    pattern_matching::match_level();
 }
 
 //test konsep enumeration
