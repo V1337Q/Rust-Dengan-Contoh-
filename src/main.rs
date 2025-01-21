@@ -140,6 +140,11 @@ fn loop_1() {
     loop_per::per_loop();
 }
 
+#[test]
+fn loop_2() {
+    loop_per::loop2();
+}
+
 //test konsep enumeration
 #[test]
 fn enumeration() {
