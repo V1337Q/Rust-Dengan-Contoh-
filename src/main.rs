@@ -151,6 +151,10 @@ fn loop_2() {
 fn while_loop() {
     while_loop::while_loop();
 }
+#[test]
+fn array_loop() {
+    while_loop::while_array();
+}
 
 //test konsep enumeration
 #[test]
