@@ -22,6 +22,7 @@ mod stack_heap;
 mod ownership_move;
 mod if_expression;
 mod loop_per;
+mod while_loop; 
 
 //test variable
 #[test]
@@ -143,6 +144,12 @@ fn loop_1() {
 #[test]
 fn loop_2() {
     loop_per::loop2();
+}
+
+//test while loop
+#[test]
+fn while_loop() {
+    while_loop::while_loop();
 }
 
 //test konsep enumeration
