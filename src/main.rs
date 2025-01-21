@@ -19,6 +19,8 @@ mod two_d_array;
 mod konstanta;
 mod tipe_string;
 mod stack_heap;
+mod ownership_move;
+mod if_expression;
 
 
 //test variable
@@ -80,6 +82,17 @@ fn if_else_statement() {
     if_else_statement::if_else_statement();
 }
 
+#[test]
+fn if_let() {
+    if_else_statement::iflet_statement();
+}
+
+// If expression. If juga bisa dinyatakan sebagai suatu variable.
+#[test]
+fn if_expression() {
+    if_expression::ifletgabung_statement();
+}
+
 //test array indexing 
 #[test]
 fn array_indexing() {
@@ -114,6 +127,11 @@ fn konstanta() {
 #[test]
 fn copy_data() {
     stack_heap::datacopy();
+}
+
+#[test]
+fn move_ownership() {
+    ownership_move::ownershipmovement();
 }
 
 //test konsep enumeration
