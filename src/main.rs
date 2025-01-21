@@ -21,7 +21,7 @@ mod tipe_string;
 mod stack_heap;
 mod ownership_move;
 mod if_expression;
-
+mod loop_per;
 
 //test variable
 #[test]
@@ -132,6 +132,12 @@ fn copy_data() {
 #[test]
 fn move_ownership() {
     ownership_move::ownershipmovement();
+}
+
+//test loop 
+#[test]
+fn loop_1() {
+    loop_per::per_loop();
 }
 
 //test konsep enumeration
