@@ -27,6 +27,7 @@ mod for_loop;
 mod for_loop_array;
 mod range;
 mod function_call;
+mod parameter;
 
 //test variable
 #[test]
@@ -188,6 +189,12 @@ fn inclusive_range() {
 #[test]
 fn function_call() {
     function_call::panggil_katakan_keju(); 
+}
+
+//test parameter 
+#[test]
+fn parameter() {
+    parameter::test_parameter();
 }
 
 //test konsep enumeration
