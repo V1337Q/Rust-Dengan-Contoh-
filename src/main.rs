@@ -24,6 +24,8 @@ mod if_expression;
 mod loop_per;
 mod while_loop; 
 mod for_loop;
+mod for_loop_array;
+
 
 //test variable
 #[test]
@@ -163,6 +165,11 @@ fn for_loop() {
     for_loop::for_loop();
 }
 
+//for loop untuk array
+#[test]
+fn for_loop_array() {
+    for_loop_array::for_array();
+}
 
 //test konsep enumeration
 #[test]
