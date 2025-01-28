@@ -2,37 +2,36 @@
 // mod (namafile);
 //
 // jalankan kode program dengan command = cargo test (nama test function) -- --exact --show-output
-mod variable;
-mod merubah_tipedata;
-mod operator;
-mod tuple;
-mod shadowing;
-mod comparator;
-mod if_else_statement;
-mod array_indexing;
-mod scope;
-mod enumeration;
-mod boolean;
 mod array;
-mod stringslice;
-mod two_d_array;
-mod konstanta;
-mod tipe_string;
-mod stack_heap;
-mod ownership_move;
-mod if_expression;
-mod loop_per;
-mod while_loop; 
+mod array_indexing;
+mod boolean;
+mod comparator;
+mod enumeration;
 mod for_loop;
 mod for_loop_array;
-mod range;
 mod function_call;
+mod generic;
+mod if_else_statement;
+mod if_expression;
+mod konstanta;
+mod loop_per;
+mod merubah_tipedata;
+mod operator;
+mod ownership_move;
 mod parameter;
-mod rekursi;
-mod struct_1;
 mod pattern_matching;
-
-
+mod range;
+mod rekursi;
+mod scope;
+mod shadowing;
+mod stack_heap;
+mod stringslice;
+mod struct_1;
+mod tipe_string;
+mod tuple;
+mod two_d_array;
+mod variable;
+mod while_loop;
 
 //test variable
 #[test]
@@ -87,7 +86,7 @@ fn comparator() {
     comparator::comparator();
 }
 
-//test if else statement 
+//test if else statement
 #[test]
 fn if_else_statement() {
     if_else_statement::if_else_statement();
@@ -104,7 +103,7 @@ fn if_expression() {
     if_expression::ifletgabung_statement();
 }
 
-//test array indexing 
+//test array indexing
 #[test]
 fn array_indexing() {
     array_indexing::arayy_indexing();
@@ -145,7 +144,7 @@ fn move_ownership() {
     ownership_move::ownershipmovement();
 }
 
-//test loop 
+//test loop
 #[test]
 fn loop_1() {
     loop_per::per_loop();
@@ -166,7 +165,7 @@ fn array_loop() {
     while_loop::while_array();
 }
 
-//test for loop 
+//test for loop
 #[test]
 fn for_loop() {
     for_loop::for_loop();
@@ -193,10 +192,10 @@ fn inclusive_range() {
 //test function calling
 #[test]
 fn function_call() {
-    function_call::panggil_katakan_keju(); 
+    function_call::panggil_katakan_keju();
 }
 
-//test parameter 
+//test parameter
 #[test]
 fn parameter() {
     parameter::test_parameter();
@@ -214,7 +213,7 @@ fn faktorial() {
     rekursi::faktorekur();
 }
 
-//Struct 
+//Struct
 
 #[test]
 fn struct_1() {
@@ -232,4 +231,8 @@ fn enumeration() {
     enumeration::payment_test();
 }
 
-
+//test generic
+#[test]
+fn generic() {
+    generic::coba_generic_struct();
+}
