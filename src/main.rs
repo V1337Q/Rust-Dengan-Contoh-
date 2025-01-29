@@ -6,6 +6,7 @@ mod array;
 mod array_indexing;
 mod boolean;
 mod comparator;
+mod enum_option;
 mod enumeration;
 mod for_loop;
 mod for_loop_array;
@@ -32,7 +33,6 @@ mod tuple;
 mod two_d_array;
 mod variable;
 mod while_loop;
-
 //test variable
 #[test]
 fn test_variable() {
@@ -235,4 +235,10 @@ fn enumeration() {
 #[test]
 fn generic() {
     generic::coba_generic_struct();
+}
+
+//test enum option
+#[test]
+fn enum_option() {
+    enum_option::test_double();
 }
