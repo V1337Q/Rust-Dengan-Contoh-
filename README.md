@@ -26,8 +26,8 @@ brew install rust
 1. Download [rustup-init.exe](https://win.rustup.rs/x86_64)
 2. Jalankan file `rustup-init.exe`
 
-Table mater yang dibahas pada repository ini
+## Table mater yang dibahas pada repository ini
 
 | Materi | Konten |
 | ------ | ------ |
-| [Rust-Basics](https://github.com/verumquaerite/Rust-Dengan-Contoh/tree/main/Rust-Basics) | [Cara install Rust](https://github.com/verumquaerite/Rust-Dengan-Contoh/tree/main/Rust-Basics#cara-install-rust) |
+| [Rust-Basics] | [Cara install Rust](https://github.com/verumquaerite/Rust-Dengan-Contoh/) |
